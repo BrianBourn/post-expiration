@@ -109,7 +109,7 @@ class Post_Expiration {
 				'public'                    => true,
 				'show_in_admin_all_list'    => false,
 				'show_in_admin_status_list' => true,
-				'exclude_from_search'       => true;
+				'exclude_from_search'       => true,
 				'publicly_queryable'        => false,
 				'label_count'               => _n_noop( 'Expired <span class="count">(%s)</span>', 'Expired <span class="count">(%s)</span>' ),
 			));
